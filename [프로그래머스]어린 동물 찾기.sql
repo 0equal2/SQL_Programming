@@ -1,0 +1,5 @@
+-- [프로그래머스] 어린 동물 찾기
+-- INTAKE_CONDITION이 Aged가 아닌 동물
+
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS
+WHERE INTAKE_CONDITION != 'Aged'
